@@ -1467,3 +1467,138 @@ Received Import Request.
 Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/CoriolisNight4k.mat using Guid(2ffab6e6a7a64e94fa3b0364792cf391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9816bdadb148f995b1f7a132ccb4feeb') in 0.034632 seconds
   Import took 0.041949 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1302 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 1790.
+Total: 4.594800 ms (FindLiveObjects: 0.359800 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.975400 ms  DeleteObjects: 2.184700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3182.053705 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials
+  artifactKey: Guid(31893fc13afef8d4e9d26ad79e91a254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials using Guid(31893fc13afef8d4e9d26ad79e91a254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1fab06b8a0a4e421ea595c897964fa') in 0.013127 seconds
+  Import took 0.016068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191112 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/AmbienceExposure4k.mat
+  artifactKey: Guid(d2a5384e7aa2b794486b30ef9a24235f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/AmbienceExposure4k.mat using Guid(d2a5384e7aa2b794486b30ef9a24235f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735fc29c231527544b382501f032aff9') in 0.102457 seconds
+  Import took 0.107423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/CasualDay4K.mat
+  artifactKey: Guid(5c51ca27d030dd444a7cf1a8e184613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/CasualDay4K.mat using Guid(5c51ca27d030dd444a7cf1a8e184613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008ad843ac45b3ed7785a2dfae22eb83') in 0.039228 seconds
+  Import took 0.043888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/SkyhighFluffycloudField4k.mat
+  artifactKey: Guid(e9aee79c9c6ce3749b3e799a73516119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/SkyhighFluffycloudField4k.mat using Guid(e9aee79c9c6ce3749b3e799a73516119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bb54f911836419e6cfa44dc896e685') in 0.012941 seconds
+  Import took 0.015380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/MegaSun4k.mat
+  artifactKey: Guid(15881bf7854c368449b1cec0f78857ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/MegaSun4k.mat using Guid(15881bf7854c368449b1cec0f78857ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb13364889a3d093faa1021b5360d056') in 0.039621 seconds
+  Import took 0.043986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/HighFantasy4k.mat
+  artifactKey: Guid(c4e845f74ea310e4aa634bf1605d2b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/HighFantasy4k.mat using Guid(c4e845f74ea310e4aa634bf1605d2b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e66b134361b4f4e71bc3cc105b8b5b8') in 0.006980 seconds
+  Import took 0.009510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/UnearthlyRed4k.mat
+  artifactKey: Guid(d7e89e6819919094291596c84e7cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/UnearthlyRed4k.mat using Guid(d7e89e6819919094291596c84e7cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f5b3760e1b17cc2cf508af5a7cff7b') in 0.007951 seconds
+  Import took 0.010145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/DarkStorm4K.mat
+  artifactKey: Guid(0c98f0287087c7e4782e36a2259ac662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/DarkStorm4K.mat using Guid(0c98f0287087c7e4782e36a2259ac662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42442124e4e27282f33c48de6c2289d') in 0.037753 seconds
+  Import took 0.042130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/Cloudymorning4k.mat
+  artifactKey: Guid(27b4b0e51792f1f49bc749fd9d01f83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/Cloudymorning4k.mat using Guid(27b4b0e51792f1f49bc749fd9d01f83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b4bcb58bc3d4e52f13b34a57b2492f') in 0.042729 seconds
+  Import took 0.047256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/FluffballDay4k.mat
+  artifactKey: Guid(fc48f5bb64d37154b9aca660eeebb167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/FluffballDay4k.mat using Guid(fc48f5bb64d37154b9aca660eeebb167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c184df9c0ae9b9f7e769b438cc47854') in 0.046772 seconds
+  Import took 0.051246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/UnderTheSea4k.mat
+  artifactKey: Guid(dc5bda0b80c9ea349aa79d15809d6e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/UnderTheSea4k.mat using Guid(dc5bda0b80c9ea349aa79d15809d6e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8022fef3ecf832b3c10da80b9550c36') in 0.007609 seconds
+  Import took 0.009990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/PlanetaryEarth4k.mat
+  artifactKey: Guid(168cdb44dd6ff6a40a0b39ca4ecc1a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/PlanetaryEarth4k.mat using Guid(168cdb44dd6ff6a40a0b39ca4ecc1a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4e9ca54e9d466d93c699f4dfd29fdf') in 0.012335 seconds
+  Import took 0.014694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/SunlessCirruscover4k.mat
+  artifactKey: Guid(b4650f9a2a533bc44abcf2b76c7e50f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/SunlessCirruscover4k.mat using Guid(b4650f9a2a533bc44abcf2b76c7e50f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a87017965fdf068c11a8635aa4b68af') in 0.046628 seconds
+  Import took 0.050852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/DayInTheClouds4k.mat
+  artifactKey: Guid(ff5ce75aaafc8fd4d97c3eb4b7a9e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/SkySerie Freebie/FreebieHdri/Materials/DayInTheClouds4k.mat using Guid(ff5ce75aaafc8fd4d97c3eb4b7a9e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084d8b9459773a7ecdf6404a85a8f87b') in 0.012518 seconds
+  Import took 0.014825 seconds .
+
