@@ -2,7 +2,6 @@
 using System.Collections;
 using System;
 using UnityEngine.AI;
-[RequireComponent(typeof(CharacterController))]
 public class ClickToMove : MonoBehaviour
 {
     private Vector3 DestinationPosition;

@@ -24,7 +24,7 @@ public class CameraMoveScript : MonoBehaviour
         if (Input.mousePosition.x < EdgeDistance || Input.GetKey(KeyCode.LeftArrow))
         {
             CurrentPosition.x -= CameraMoveSpeed * Time.fixedDeltaTime;
-        }
+        }   
         if (Input.mousePosition.y > Height - EdgeDistance || Input.GetKey(KeyCode.UpArrow))
         {
             CurrentPosition.y += CameraMoveSpeed * Time.fixedDeltaTime;
