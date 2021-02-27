@@ -8,6 +8,7 @@ public class ClickToMove : MonoBehaviour
     private float DestinationDistance;
     private NavMeshAgent CharacterMoveAgent;
     private GameObject ProjectorGameObject;
+    private Camera MyCamera;
     private Vector3 TargetPoint;
     private Ray MoveRay;
     Vector3 GetProjectorCoord(Vector3 TargetCoordinates)
@@ -22,6 +23,7 @@ public class ClickToMove : MonoBehaviour
         DestinationPosition = transform.position;
         TargetPoint = DestinationPosition;
         ProjectorGameObject = GameObject.Find("ProjectorDummy");
+        MyCamera = Camera.main;
     }
 
     void Update()
@@ -30,7 +32,7 @@ public class ClickToMove : MonoBehaviour
         bool PressedButton = false;
         if (Input.GetMouseButtonDown(0))
         {
-            MoveRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+            MoveRay = MyCamera.ScreenPointToRay(Input.mousePosition);
             PressedButton = true;
            
         }
