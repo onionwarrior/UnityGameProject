@@ -17,7 +17,7 @@ public class CursorScript : MonoBehaviour
     {
         Ray ray= Camera.main.ScreenPointToRay(Input.mousePosition);
         if (!Physics.Raycast(ray, Mathf.Infinity,(1<<9)))
-                Cursor.SetCursor(null, Vector2.zero, cursorMode);
+            Cursor.SetCursor(null, Vector2.zero, cursorMode);
         else
             Cursor.SetCursor(BadCursorTexture, Vector2.zero, cursorMode);
 

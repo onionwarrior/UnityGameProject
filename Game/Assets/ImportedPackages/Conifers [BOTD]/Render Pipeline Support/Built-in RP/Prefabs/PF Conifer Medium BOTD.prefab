@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4071390273635838}
   - component: {fileID: 205829865164112152}
-  m_Layer: 9
+  - component: {fileID: 3328564439288185681}
+  - component: {fileID: 9156344572708094351}
+  m_Layer: 0
   m_Name: PF Conifer Medium BOTD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,6 +63,33 @@ LODGroup:
     renderers:
     - renderer: {fileID: 227131698251642430}
   m_Enabled: 1
+--- !u!182 &3328564439288185681
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214657917099862}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
+--- !u!114 &9156344572708094351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214657917099862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1edb39aa169eb40cfa015393d5396847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindMultiplier: 1
 --- !u!1 &1487772876627174
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4285550008755934}
   - component: {fileID: 227131698251642430}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Conifer Medium BOTD Billboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +174,7 @@ GameObject:
   - component: {fileID: 33257530108043278}
   - component: {fileID: 23436335641026108}
   - component: {fileID: 193380587091239086}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Conifer Medium BOTD LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +266,7 @@ GameObject:
   - component: {fileID: 33779992140741664}
   - component: {fileID: 23942989677910610}
   - component: {fileID: 193825140764582888}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Conifer Medium BOTD LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

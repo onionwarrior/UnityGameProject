@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33553830683910954}
   - component: {fileID: 23309444090733188}
   - component: {fileID: 193712119161921956}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Conifer Tall BOTD LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 33559743796376114}
   - component: {fileID: 23933673824694470}
   - component: {fileID: 193888167281353914}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Conifer Tall BOTD LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4925666623870900}
   - component: {fileID: 227004396696467460}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Conifer Tall BOTD Billboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,8 @@ GameObject:
   - component: {fileID: 4534264641828652}
   - component: {fileID: 205477677417311662}
   - component: {fileID: 136397860403507302}
-  m_Layer: 9
+  - component: {fileID: -8300072357233279732}
+  m_Layer: 0
   m_Name: PF Conifer Tall BOTD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,3 +333,17 @@ CapsuleCollider:
   m_Height: 6
   m_Direction: 1
   m_Center: {x: 0, y: 2.5, z: 0}
+--- !u!182 &-8300072357233279732
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743353957770956}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
