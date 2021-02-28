@@ -21,5 +21,5 @@ public class CursorScript : MonoBehaviour
         else
             Cursor.SetCursor(BadCursorTexture, Vector2.zero, cursorMode);
 
-}
+    }
 }
