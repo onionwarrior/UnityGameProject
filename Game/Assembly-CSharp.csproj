@@ -105,6 +105,7 @@
      <None Include="Assets\ImportedPackages\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\ImportedPackages\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
      <None Include="Assets\ImportedPackages\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Resources\Shaders\NewSurfaceShader.shader" />
     <Reference Include="UnityEngine">
       <HintPath>Z:\Unity\2020.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

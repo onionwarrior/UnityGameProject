@@ -8,7 +8,7 @@ public class ProjectorLayers : MonoBehaviour
     void Start()
     {
         Projector ThisProjector = GetComponent<Projector>();
-        ThisProjector.ignoreLayers = (1 << 9) | (1 << 10);
+        ThisProjector.ignoreLayers = (1 << 9) | (1 << 10) | (1<<11) | (1<<12);
     }
 
 }

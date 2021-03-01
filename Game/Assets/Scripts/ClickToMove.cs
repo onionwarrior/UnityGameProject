@@ -14,12 +14,12 @@ public class ClickToMove : MonoBehaviour
     Vector3 GetProjectorCoord(Vector3 TargetCoordinates)
     {
         Vector3 ReturnValue = TargetCoordinates;
-        ReturnValue.y += 10.0f;
+        ReturnValue.y += 2.0f;
         return ReturnValue;
     }
     void Start()
     {
-        CharacterMoveAgent= GetComponent<NavMeshAgent>();
+        CharacterMoveAgent = GetComponentInParent<NavMeshAgent>();
         DestinationPosition = transform.position;
         TargetPoint = DestinationPosition;
         ProjectorGameObject = GameObject.Find("ProjectorDummy");
@@ -34,9 +34,9 @@ public class ClickToMove : MonoBehaviour
         {
             MoveRay = MyCamera.ScreenPointToRay(Input.mousePosition);
             PressedButton = true;
-           
+
         }
-        if (PressedButton && !Physics.Raycast(MoveRay, Mathf.Infinity, 1 << 9 | 1<<10))
+        if (PressedButton && !Physics.Raycast(MoveRay, Mathf.Infinity, 1 << 9 | 1 << 10))
         {
             if (Physics.Raycast(MoveRay, out RaycastHit OnClickHit, Mathf.Infinity, 1 << 8))
             {
@@ -45,8 +45,8 @@ public class ClickToMove : MonoBehaviour
                 ProjectorGameObject.transform.position = GetProjectorCoord(DestinationPosition);
             }
         }
-		if (DestinationDistance > .5f )
+        if (DestinationDistance > .5f)
             CharacterMoveAgent.SetDestination(TargetPoint);
-	}
+    }
 
 }
