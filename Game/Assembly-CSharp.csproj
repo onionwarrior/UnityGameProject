@@ -76,6 +76,7 @@
     <Compile Include="Assets\ImportedPackages\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
     <Compile Include="Assets\Scripts\CameraZoomScript.cs" />
     <Compile Include="Assets\Scripts\PauseScript.cs" />
+    <Compile Include="Assets\Scripts\ChangeScenes.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\ImportedPackages\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
